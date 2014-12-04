@@ -3,7 +3,7 @@
 
 Name:          idea-phpstorm-standalone
 Version:       139.659
-Release:       1
+Release:       2
 Summary:       Develop with pleasure!
 
 Group:         Development

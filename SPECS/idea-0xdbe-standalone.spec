@@ -4,7 +4,7 @@
 
 Name:          idea-%{shortname}-standalone
 Version:       138.2222.2
-Release:       1
+Release:       2
 Summary:       Develop with pleasure!
 
 Group:         Development
