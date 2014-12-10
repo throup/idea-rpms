@@ -26,9 +26,9 @@ $ sudo yum install /path/to/package.rpm
 3) Install the release package for the Yum repository:
 
 ```sh
-$ sudo rpm -Uvh https://raw.githubusercontent.com/throup/idea-rpms-repo/master/RPMS/idea-rpms-release-0.0.1-1.x86_64.rpm
+$ sudo rpm -Uvh https://raw.githubusercontent.com/throup/idea-rpms-repo/master/RPMS/idea-rpms-release-0.0.2-1.x86_64.rpm
 ```
 
-(or directly download the release RPM from https://raw.githubusercontent.com/throup/idea-rpms-repo/master/RPMS/idea-rpms-release-0.0.1-1.x86_64.rpm)
+(or directly download the release RPM from https://raw.githubusercontent.com/throup/idea-rpms-repo/master/RPMS/idea-rpms-release-0.0.2-1.x86_64.rpm)
 
 That should do the job. You should now receive package updates in the form of delta RPMS whenever I release an update. These deltas only contain the changes between software releases, so (a) they cannot be used without obtaining the original software from Jetbrains; and (b) they're much, much smaller!
