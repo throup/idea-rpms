@@ -6,7 +6,7 @@
 %global __python %{__python3}
 
 Name:          idea-intellij-standalone
-Version:       139.658
+Version:       139.659.2
 Release:       1
 Summary:       IntelliJ Java IDE
 
