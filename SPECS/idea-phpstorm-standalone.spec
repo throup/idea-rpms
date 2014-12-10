@@ -1,9 +1,10 @@
 %define fullname  PhpStorm
+%define vendor    jetbrains
 %define shortname phpstorm
 
 Name:          idea-phpstorm-standalone
 Version:       139.659
-Release:       2
+Release:       3
 Summary:       Develop with pleasure!
 
 Group:         Development
@@ -29,7 +30,7 @@ Exec="%{_datadir}/phpstorm/bin/%{shortname}.sh" %f
 Comment=%{summary}
 Categories=Development;IDE;
 Terminal=false
-StartupWMClass=%{name}
+StartupWMClass=%{vendor}-%{shortname}
 EOF
 
 # Create the wrapper for /usr/bin
