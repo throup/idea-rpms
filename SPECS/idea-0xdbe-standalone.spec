@@ -4,7 +4,7 @@
 
 Name:          idea-%{shortname}-standalone
 Version:       138.2222.2
-Release:       2
+Release:       3
 Summary:       Develop with pleasure!
 
 Group:         Development
@@ -33,7 +33,7 @@ Exec="%{_datadir}/idea/bin/%{shortname}.sh" %f
 Comment=%{summary}
 Categories=Development;IDE;
 Terminal=false
-StartupWMClass=%{name}
+StartupWMClass=%{vendor}-%{shortname}
 EOF
 
 # Create the wrapper for /usr/bin
