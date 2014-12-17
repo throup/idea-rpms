@@ -6,7 +6,7 @@
 %global __python %{__python3}
 
 Name:          idea-intellij-standalone
-Version:       139.659.2
+Version:       139.791
 Release:       1
 Summary:       IntelliJ Java IDE
 
@@ -14,10 +14,10 @@ Group:         Development
 License:       Apache License
 URL:           https://github.com/JetBrains/intellij-community/tree/%{shortname}/%{version}
 Source0:       https://github.com/JetBrains/intellij-community/archive/%{shortname}/%{version}.tar.gz
-%define suppl1 throup-idea-android-1625a52a183a
+%define suppl1 throup-idea-android-134b8e192741
 #Source1:         https://bitbucket.org/throup/idea-android/get/master.tar.gz#/%{suppl1}.tar.gz
 Source1:       https://bitbucket.org/throup/idea-android/get/idea/%{version}.tar.gz#/%{suppl1}.tar.gz
-%define suppl2 throup-idea-adt-tools-base-381a533c8845
+%define suppl2 throup-idea-adt-tools-base-7069aa6dcea2
 #Source2:       https://bitbucket.org/throup/idea-adt-tools-base/get/master.tar.gz#/%{suppl2}.tar.gz
 Source2:       https://bitbucket.org/throup/idea-adt-tools-base/get/idea/%{version}.tar.gz#/%{suppl2}.tar.gz
 
