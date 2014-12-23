@@ -3,15 +3,15 @@
 %define shortname phpstorm
 
 Name:          idea-phpstorm-standalone
-Version:       139.659
-Release:       3
+Version:       139.732
+Release:       1
 Summary:       Develop with pleasure!
 
 Group:         Development
 License:       Commercial
 URL:           http://confluence.jetbrains.com/display/%{fullname}/PhpStorm+Early+Access+Program
-Source0:       http://download.jetbrains.com/webide/%{fullname}-EAP-%{version}.tar.gz
-
+#Source0:       http://download.jetbrains.com/webide/%{fullname}-EAP-%{version}.tar.gz
+Source0:       http://download.jetbrains.com/webide/PhpStorm-8.0.2.tar.gz
 
 %description
 Integrated Development Environment for PHP.
