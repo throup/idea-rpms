@@ -3,7 +3,7 @@
 %define shortname webstorm
 
 Name:          idea-webstorm-standalone
-Version:       139.625
+Version:       139.773
 Release:       1
 Summary:       Develop with pleasure!
 
@@ -11,8 +11,10 @@ Group:         Development
 License:       Commercial
 URL:           http://confluence.jetbrains.com/display/%{fullname}/WebStorm+Early+Access+Program
 #Source0:       http://download.jetbrains.com/webide/%{fullname}-%{version}.tar.gz
-Source0:       http://download.jetbrains.com/webstorm/WebStorm-9.0.2-EAP.tar.gz
+Source0:       http://download.jetbrains.com/webstorm/WebStorm-9.0.2.tar.gz
 
+Requires:      java
+Requires:      jre
 
 %description
 Integrated Development Environment for PHP.

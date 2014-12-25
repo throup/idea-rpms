@@ -3,8 +3,8 @@
 %define shortname 0xdbe
 
 Name:          idea-%{shortname}-standalone
-Version:       138.2222.2
-Release:       3
+Version:       139.795.5
+Release:       1
 Summary:       Develop with pleasure!
 
 Group:         Development
@@ -13,6 +13,7 @@ URL:           http://confluence.jetbrains.com/display/DBE/0xDBE+1.0+EAP
 Source0:       http://download.jetbrains.com/dbe/%{shortname}-%{version}.tar.gz
 
 Requires:      java
+Requires:      jre
 
 
 %description

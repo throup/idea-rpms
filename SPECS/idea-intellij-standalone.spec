@@ -4,9 +4,10 @@
 %define buildname intellij-community-%{shortname}
 
 %global __python %{__python3}
+%define debug_package %{nil}
 
 Name:          idea-intellij-standalone
-Version:       139.791
+Version:       139.872
 Release:       1
 Summary:       IntelliJ Java IDE
 
@@ -22,6 +23,9 @@ Source1:       https://bitbucket.org/throup/idea-android/get/idea/%{version}.tar
 Source2:       https://bitbucket.org/throup/idea-adt-tools-base/get/idea/%{version}.tar.gz#/%{suppl2}.tar.gz
 
 BuildRequires: ant
+
+Requires:      java
+Requires:      jre
 
 %description
 IntelliJ Java IDE based upon the Jetbrains Idea platform.
