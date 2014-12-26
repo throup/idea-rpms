@@ -4,13 +4,14 @@
 
 Name:          idea-%{shortname}-standalone
 Version:       139.795.5
-Release:       1
+Release:       2
 Summary:       Develop with pleasure!
 
 Group:         Development
 License:       Commercial
 URL:           http://confluence.jetbrains.com/display/DBE/0xDBE+1.0+EAP
 Source0:       http://download.jetbrains.com/dbe/%{shortname}-%{version}.tar.gz
+Nosource:      0
 
 Requires:      java
 Requires:      jre

@@ -4,7 +4,7 @@
 
 Name:          idea-webstorm-standalone
 Version:       139.773
-Release:       1
+Release:       2
 Summary:       Develop with pleasure!
 
 Group:         Development
@@ -12,6 +12,7 @@ License:       Commercial
 URL:           http://confluence.jetbrains.com/display/%{fullname}/WebStorm+Early+Access+Program
 #Source0:       http://download.jetbrains.com/webide/%{fullname}-%{version}.tar.gz
 Source0:       http://download.jetbrains.com/webstorm/WebStorm-9.0.2.tar.gz
+Nosource:      0
 
 Requires:      java
 Requires:      jre

@@ -6,13 +6,14 @@
 
 Name:          idea-phpstorm-standalone
 Version:       139.873
-Release:       1
+Release:       2
 Summary:       Develop with pleasure!
 
 Group:         Development
 License:       Commercial
 URL:           http://confluence.jetbrains.com/display/%{fullname}/PhpStorm+Early+Access+Program
 Source0:       http://download.jetbrains.com/webide/%{fullname}-EAP-%{version}.tar.gz
+Nosource:      0
 
 Requires:      java
 Requires:      jre

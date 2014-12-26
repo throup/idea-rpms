@@ -12,6 +12,8 @@ URL:           https://github.com/throup/idea-rpms-repo
 RPM packages for IDEs based upon Jetbrains Idea platform.
 
 %prep
+rm -Rf %{name}
+mkdir %{name}
 cd %{name}
 
 %build
